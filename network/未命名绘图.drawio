@@ -1,17 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T06:20:24.048Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="LRNOr27Sz51hoO_Jklt-" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T06:27:39.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="uUn5YC7a1KvdPXyEYiRB" version="21.1.5" type="github">
   <diagram name="Page-1" id="197159a0-c6a4-9194-75a8-e4174976684c">
     <mxGraphModel dx="1908" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
-        <mxCell id="1257a543d1cacc4b-52" value="网络架构图" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="160" y="60" width="1420" height="40" as="geometry" />
+        <mxCell id="28SMEQxceJZkX-4wOSHQ-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="310" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="28SMEQxceJZkX-4wOSHQ-2" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Web_App_Firewall.svg;" vertex="1" parent="1">
+        <mxCell id="1257a543d1cacc4b-52" value="网络架构图" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="570" y="60" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="28SMEQxceJZkX-4wOSHQ-2" value="&lt;font face=&quot;Garamond&quot; style=&quot;font-size: 24px;&quot;&gt;外部防火墙&lt;/font&gt;" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Web_App_Firewall.svg;" vertex="1" parent="1">
           <mxGeometry x="791.13" y="400" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="28SMEQxceJZkX-4wOSHQ-3" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+        <mxCell id="28SMEQxceJZkX-4wOSHQ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="28SMEQxceJZkX-4wOSHQ-3" target="28SMEQxceJZkX-4wOSHQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="28SMEQxceJZkX-4wOSHQ-3" value="&lt;font face=&quot;Garamond&quot; style=&quot;font-size: 24px;&quot;&gt;英特网&lt;/font&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
           <mxGeometry x="785.25" y="190" width="171.75" height="108.2" as="geometry" />
+        </mxCell>
+        <mxCell id="28SMEQxceJZkX-4wOSHQ-5" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.workstation_pc;" vertex="1" parent="1">
+          <mxGeometry x="107" y="160" width="53" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="28SMEQxceJZkX-4wOSHQ-6" value="" style="shape=mxgraph.cisco.computers_and_peripherals.laptop;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="152" width="90" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="28SMEQxceJZkX-4wOSHQ-7" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="270" y="149" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="28SMEQxceJZkX-4wOSHQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.28;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="28SMEQxceJZkX-4wOSHQ-6" target="28SMEQxceJZkX-4wOSHQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="28SMEQxceJZkX-4wOSHQ-11" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;政务外网PC用户&lt;/b&gt;&lt;/font&gt;" style="rounded=1;arcSize=9;align=center;spacingLeft=5;strokeColor=#4C9AFF;html=1;strokeWidth=2;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="100" y="265" width="290" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
