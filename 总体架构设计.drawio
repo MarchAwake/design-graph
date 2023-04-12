@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T10:54:18.253Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="kNh6og4yGHY6Q8QhEKMy" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T10:59:37.077Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="cbd4RH_tqcr-lRgfOPN7" version="21.1.5" type="github">
   <diagram name="第 1 页" id="gf264nv1QYMSFv3LLXOR">
     <mxGraphModel dx="954" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,6 +108,42 @@
         </mxCell>
         <mxCell id="Qr9r0tyXiFhsWDQZmAty-41" value="支撑工具" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="556" y="340" width="112" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr9r0tyXiFhsWDQZmAty-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9" y="465" width="810" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr9r0tyXiFhsWDQZmAty-46" value="数据资源层" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="13" y="490" width="30" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr9r0tyXiFhsWDQZmAty-48" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="59" y="485" width="251" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr9r0tyXiFhsWDQZmAty-49" value="数据政府大数据中心" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="121" y="490" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr9r0tyXiFhsWDQZmAty-50" value="数据资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="68" y="535" width="112" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr9r0tyXiFhsWDQZmAty-51" value="共享交换" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="191" y="535" width="112" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr9r0tyXiFhsWDQZmAty-52" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="485" width="430" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr9r0tyXiFhsWDQZmAty-53" value="业务数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="438" y="490" width="260" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr9r0tyXiFhsWDQZmAty-54" value="商品数据库" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="381" y="530" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr9r0tyXiFhsWDQZmAty-55" value="公告数据库" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="479" y="530" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr9r0tyXiFhsWDQZmAty-56" value="基础库" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="530" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr9r0tyXiFhsWDQZmAty-57" value="缓存库" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="669" y="530" width="76" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
