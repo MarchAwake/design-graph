@@ -1,28 +1,3 @@
-<script src="https://cdn.jsdelivr.net/npm/clipboard@3.5.1/dist/clipboard.min.js"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const codeBlocks = document.querySelectorAll('pre > code.bash-copy-button');
-    codeBlocks.forEach((codeBlock) => {
-      const copyButton = document.createElement('button');
-      copyButton.className = 'copy-button';
-      copyButton.textContent = 'Copy';
-      codeBlock.parentNode.insertBefore(copyButton, codeBlock);
-
-      const clipboard = new ClipboardJS(copyButton, {
-        target: () => codeBlock,
-      });
-
-      clipboard.on('success', (e) => {
-        e.clearSelection();
-        copyButton.textContent = 'Copied!';
-        setTimeout(() => {
-          copyButton.textContent = 'Copy';
-        }, 2000);
-      });
-    });
-  });
-</script>
-
 # RockyLinux-9.2 基于 dnsmasq 搭建 DHCP Sever
 
 ## 安装依赖
